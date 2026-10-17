@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "th-file-utils"
+version = "0.1.1"
+description = "A utility package for safely and efficiently performing file operations"
+readme = "README.md"
+requires-python = ">=3.14"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "T.H (Tech Lab Works)", email = "jcc00456biz@gmail.com" }
+]
+keywords = ["utility", "file", "filesystem", "path"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Filesystems",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jcc00456biz/th-file-utils"
+Repository = "https://github.com/jcc00456biz/th-file-utils.git"
+"Bug Tracker" = "https://github.com/jcc00456biz/th-file-utils/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
