@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.2] - 2026-10-18
+
+- Added py.typed.
+
 ## [0.1.1] - 2026-10-18
 
 - Updated README.md in English.
